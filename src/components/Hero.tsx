@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Sprout } from "lucide-react";
 import heroImage from "@/assets/hero-agro.jpg";
-
 const Hero = () => {
   const scrollToContact = () => {
     const element = document.getElementById("contact");
@@ -9,19 +8,16 @@ const Hero = () => {
       const headerOffset = 80;
       const elementPosition = element.getBoundingClientRect().top;
       const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-      window.scrollTo({ top: offsetPosition, behavior: "smooth" });
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+      });
     }
   };
-
-  return (
-    <section id="hero" className="relative min-h-screen flex items-center pt-20">
+  return <section id="hero" className="relative min-h-screen flex items-center pt-20">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <img
-          src={heroImage}
-          alt="Agropecuária e veterinária no campo"
-          className="w-full h-full object-cover"
-        />
+        <img src={heroImage} alt="Agropecuária e veterinária no campo" className="w-full h-full object-cover" />
       </div>
 
       {/* Content */}
@@ -39,7 +35,7 @@ const Hero = () => {
                 AGROREIS LTDA
               </h1>
               
-              <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-foreground/80 mb-6 sm:mb-8 font-medium animate-fade-in">
+              <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl mb-6 sm:mb-8 font-medium animate-fade-in text-stone-950">
                 Soluções completas em atendimento agropecuário com qualidade, dedicação e resultados que transformam o campo
               </h2>
               
@@ -48,27 +44,21 @@ const Hero = () => {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in">
-                <Button
-                  size="lg"
-                  onClick={scrollToContact}
-                  className="bg-primary hover:bg-primary/90 text-primary-foreground text-base sm:text-lg px-6 py-5 sm:px-8 sm:py-6 w-full sm:w-auto"
-                >
+                <Button size="lg" onClick={scrollToContact} className="bg-primary hover:bg-primary/90 text-primary-foreground text-base sm:text-lg px-6 py-5 sm:px-8 sm:py-6 w-full sm:w-auto">
                   Entre em contato
                 </Button>
-                <Button
-                  size="lg"
-                  variant="outline"
-                  onClick={() => {
-                    const element = document.getElementById("services");
-                    if (element) {
-                      const headerOffset = 80;
-                      const elementPosition = element.getBoundingClientRect().top;
-                      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-                      window.scrollTo({ top: offsetPosition, behavior: "smooth" });
-                    }
-                  }}
-                  className="text-base sm:text-lg px-6 py-5 sm:px-8 sm:py-6 border-primary/60 text-foreground hover:bg-primary/10 hover:border-primary w-full sm:w-auto"
-                >
+                <Button size="lg" variant="outline" onClick={() => {
+                const element = document.getElementById("services");
+                if (element) {
+                  const headerOffset = 80;
+                  const elementPosition = element.getBoundingClientRect().top;
+                  const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+                  window.scrollTo({
+                    top: offsetPosition,
+                    behavior: "smooth"
+                  });
+                }
+              }} className="text-base sm:text-lg px-6 py-5 sm:px-8 sm:py-6 border-primary/60 text-foreground hover:bg-primary/10 hover:border-primary w-full sm:w-auto">
                   Nossos serviços
                 </Button>
               </div>
@@ -76,17 +66,11 @@ const Hero = () => {
 
             {/* Logo */}
             <div className="hidden lg:flex items-center justify-center animate-fade-in">
-              <img
-                src="/logo.png"
-                alt="Logo AGROREIS LTDA"
-                className="w-[500px] h-[500px] xl:w-[650px] xl:h-[650px] object-contain drop-shadow-2xl"
-              />
+              <img src="/logo.png" alt="Logo AGROREIS LTDA" className="w-[500px] h-[500px] xl:w-[650px] xl:h-[650px] object-contain drop-shadow-2xl" />
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
