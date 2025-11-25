@@ -26,7 +26,7 @@ const Hero = () => {
 
       {/* Content */}
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="bg-background/85 backdrop-blur-sm p-6 sm:p-8 md:p-12 rounded-lg shadow-xl">
+        <div className="bg-background/60 backdrop-blur-sm p-6 sm:p-8 md:p-12 rounded-lg shadow-xl">
           <div className="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12">
             {/* Text Content */}
             <div className="flex-1 max-w-3xl">
