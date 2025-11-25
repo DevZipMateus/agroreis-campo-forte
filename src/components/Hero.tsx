@@ -78,7 +78,7 @@ const Hero = () => {
             <img
               src="/logo.png"
               alt="Logo AGROREIS LTDA"
-              className="w-64 h-64 xl:w-80 xl:h-80 object-contain drop-shadow-2xl"
+              className="w-96 h-96 xl:w-[500px] xl:h-[500px] object-contain drop-shadow-2xl"
             />
           </div>
         </div>
