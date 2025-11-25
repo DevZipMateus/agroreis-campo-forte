@@ -15,19 +15,18 @@ const Hero = () => {
 
   return (
     <section id="hero" className="relative min-h-screen flex items-center pt-20">
-      {/* Background Image with Overlay */}
+      {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
           src={heroImage}
           alt="Agropecuária e veterinária no campo"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-background/70 via-background/50 to-background/30"></div>
       </div>
 
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-3xl">
+        <div className="max-w-3xl bg-background/85 backdrop-blur-sm p-8 md:p-12 rounded-lg shadow-xl">
           <div className="flex items-center gap-3 mb-6 animate-fade-in">
             <Sprout className="h-12 w-12 text-primary" />
             <span className="text-accent font-bold text-lg">Agropecuária e Veterinária</span>
