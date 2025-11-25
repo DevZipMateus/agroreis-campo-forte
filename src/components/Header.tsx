@@ -46,7 +46,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           <button
             onClick={() => scrollToSection("hero")}
-            className="text-2xl font-bold text-primary hover:text-primary/80 transition-colors"
+            className="text-2xl font-bold text-secondary-foreground hover:text-primary transition-colors"
           >
             AGROREIS
           </button>
@@ -57,7 +57,7 @@ const Header = () => {
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="text-foreground hover:text-primary transition-colors font-medium"
+                className="text-secondary-foreground hover:text-primary transition-colors font-medium"
               >
                 {item.label}
               </button>
@@ -78,9 +78,9 @@ const Header = () => {
             aria-label="Toggle menu"
           >
             {isMobileMenuOpen ? (
-              <X className="h-6 w-6 text-foreground" />
+              <X className="h-6 w-6 text-secondary-foreground" />
             ) : (
-              <Menu className="h-6 w-6 text-foreground" />
+              <Menu className="h-6 w-6 text-secondary-foreground" />
             )}
           </button>
         </div>
@@ -93,7 +93,7 @@ const Header = () => {
                 <button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
-                  className="text-foreground hover:text-primary transition-colors font-medium text-left py-2"
+                  className="text-secondary-foreground hover:text-primary transition-colors font-medium text-left py-2"
                 >
                   {item.label}
                 </button>
