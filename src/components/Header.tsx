@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -46,9 +47,9 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 sm:h-20">
           <button
             onClick={() => scrollToSection("hero")}
-            className="text-xl sm:text-2xl font-bold text-secondary-foreground hover:text-primary transition-colors"
+            className="flex items-center gap-2 hover:opacity-80 transition-opacity"
           >
-            AGROREIS
+            <img src={logo} alt="AGROREIS LTDA" className="h-10 sm:h-12 w-auto" />
           </button>
 
           {/* Desktop Navigation */}

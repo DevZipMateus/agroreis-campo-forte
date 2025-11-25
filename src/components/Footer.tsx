@@ -1,4 +1,5 @@
 import { MapPin, Mail, Clock, Instagram } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   return (
@@ -7,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
           {/* Sobre */}
           <div>
-            <h3 className="text-lg sm:text-xl font-bold text-secondary-foreground mb-3 sm:mb-4">AGROREIS LTDA</h3>
+            <img src={logo} alt="AGROREIS LTDA" className="h-16 sm:h-20 w-auto mb-3 sm:mb-4" />
             <p className="text-sm sm:text-base text-secondary-foreground/80 mb-3 sm:mb-4">
               O campo mais forte começa aqui!
             </p>
