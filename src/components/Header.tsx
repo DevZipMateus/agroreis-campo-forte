@@ -38,7 +38,7 @@ const Header = () => {
     label: "Contato",
     id: "contact"
   }];
-  return <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "bg-secondary/95 backdrop-blur-md shadow-md" : "bg-secondary/80 backdrop-blur-sm"}`}>
+  return <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "bg-background/95 backdrop-blur-md shadow-md" : "bg-background/80 backdrop-blur-sm"}`}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-20">
           <button onClick={() => scrollToSection("hero")} className="flex items-center gap-2 hover:opacity-80 transition-opacity">
