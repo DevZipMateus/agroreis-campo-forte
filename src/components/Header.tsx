@@ -42,11 +42,11 @@ const Header = () => {
         isScrolled ? "bg-secondary/95 backdrop-blur-md shadow-md" : "bg-secondary/80 backdrop-blur-sm"
       }`}
     >
-      <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-20">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-16 sm:h-20">
           <button
             onClick={() => scrollToSection("hero")}
-            className="text-2xl font-bold text-secondary-foreground hover:text-primary transition-colors"
+            className="text-xl sm:text-2xl font-bold text-secondary-foreground hover:text-primary transition-colors"
           >
             AGROREIS
           </button>
