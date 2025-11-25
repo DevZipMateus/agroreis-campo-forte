@@ -75,11 +75,13 @@ const Hero = () => {
 
           {/* Logo */}
           <div className="hidden lg:flex items-center justify-center animate-fade-in">
-            <img
-              src="/logo.png"
-              alt="Logo AGROREIS LTDA"
-              className="w-[500px] h-[500px] xl:w-[650px] xl:h-[650px] object-contain drop-shadow-2xl"
-            />
+            <div className="bg-background/85 backdrop-blur-sm p-8 rounded-lg shadow-xl">
+              <img
+                src="/logo.png"
+                alt="Logo AGROREIS LTDA"
+                className="w-[500px] h-[500px] xl:w-[650px] xl:h-[650px] object-contain drop-shadow-2xl"
+              />
+            </div>
           </div>
         </div>
       </div>
