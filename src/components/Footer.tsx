@@ -2,7 +2,7 @@ import { MapPin, Mail, Clock, Instagram } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary/5 border-t border-border">
+    <footer className="bg-secondary border-t border-border">
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-4 gap-8">
           {/* Sobre */}
