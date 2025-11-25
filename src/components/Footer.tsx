@@ -21,13 +21,13 @@ const Footer = () => {
             <h4 className="text-lg font-semibold text-secondary-foreground mb-4">Contato</h4>
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-secondary-foreground/80">
-                <Mail className="h-5 w-5 mt-0.5 flex-shrink-0 text-primary" />
+                <Mail className="h-5 w-5 mt-0.5 flex-shrink-0 text-white" />
                 <a href="mailto:agroreiscomercio.ar@gmail.com" className="hover:text-primary transition-colors">
                   agroreiscomercio.ar@gmail.com
                 </a>
               </li>
               <li className="flex items-start gap-2 text-secondary-foreground/80">
-                <MapPin className="h-5 w-5 mt-0.5 flex-shrink-0 text-primary" />
+                <MapPin className="h-5 w-5 mt-0.5 flex-shrink-0 text-white" />
                 <span>Rodovia BA-142, s/n</span>
               </li>
             </ul>
@@ -37,7 +37,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold text-secondary-foreground mb-4">Horário</h4>
             <div className="flex items-start gap-2 text-secondary-foreground/80">
-              <Clock className="h-5 w-5 mt-0.5 flex-shrink-0 text-primary" />
+              <Clock className="h-5 w-5 mt-0.5 flex-shrink-0 text-white" />
               <span>7:30 às 17h</span>
             </div>
           </div>
@@ -51,7 +51,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-secondary-foreground/80 hover:text-primary transition-colors"
             >
-              <Instagram className="h-5 w-5" />
+              <Instagram className="h-5 w-5 text-white" />
               <span>@agroreis.ar</span>
             </a>
           </div>
