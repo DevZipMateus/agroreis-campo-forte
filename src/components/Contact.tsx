@@ -56,13 +56,13 @@ const Contact = () => {
                 key={index}
                 className="border-border hover:border-primary/40 transition-all duration-300 hover:shadow-lg"
               >
-                <CardContent className="p-6">
-                  <div className="flex items-start gap-4">
-                    <div className="p-3 bg-primary/10 rounded-lg flex-shrink-0">
-                      <Icon className="h-6 w-6 text-primary" />
+              <CardContent className="p-4 sm:p-6">
+                  <div className="flex items-start gap-3 sm:gap-4">
+                    <div className="p-2 sm:p-3 bg-primary/10 rounded-lg flex-shrink-0">
+                      <Icon className="h-5 w-5 sm:h-6 sm:w-6 text-primary" />
                     </div>
                     <div className="flex-1 min-w-0">
-                      <h3 className="font-semibold text-foreground mb-1">
+                      <h3 className="font-semibold text-sm sm:text-base text-foreground mb-1">
                         {info.label}
                       </h3>
                       {info.link && info.link !== "#" ? (
