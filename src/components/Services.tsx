@@ -57,11 +57,11 @@ const Services = () => {
                     <Icon className="h-8 w-8 text-primary-foreground" />
                   </div>
                 </div>
-                <CardContent className="p-6">
-                  <h3 className="text-2xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors">
+                <CardContent className="p-4 sm:p-6">
+                  <h3 className="text-xl sm:text-2xl font-bold text-foreground mb-2 sm:mb-3 group-hover:text-primary transition-colors">
                     {service.title}
                   </h3>
-                  <p className="text-muted-foreground leading-relaxed">
+                  <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
                     {service.description}
                   </p>
                 </CardContent>

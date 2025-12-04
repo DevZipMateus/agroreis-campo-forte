@@ -42,7 +42,7 @@ const Header = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-20">
           <button onClick={() => scrollToSection("hero")} className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-            <img src={logo} alt="AGROREIS LTDA" className="h-28 sm:h-24 w-auto" />
+            <img src={logo} alt="AGROREIS LTDA" className="h-14 xs:h-16 sm:h-20 md:h-24 w-auto" />
           </button>
 
           {/* Desktop Navigation */}
