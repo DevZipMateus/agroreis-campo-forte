@@ -29,7 +29,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start gap-2 text-sm sm:text-base text-secondary-foreground/80">
                 <MapPin className="h-4 w-4 sm:h-5 sm:w-5 mt-0.5 flex-shrink-0 text-white" />
-                <span>Rodovia BA-142, s/n</span>
+                <span>BA-142 Wagner/Utinga, em frente à praça nova</span>
               </li>
             </ul>
           </div>
