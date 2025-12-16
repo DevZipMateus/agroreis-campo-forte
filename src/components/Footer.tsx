@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-secondary border-t border-border">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 sm:gap-10 lg:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-12">
           {/* Sobre */}
           <div>
             <img src={logo} alt="AGROREIS LTDA" className="h-16 sm:h-20 w-auto mb-3 sm:mb-4" />
@@ -15,15 +15,25 @@ const Footer = () => {
             <p className="text-xs sm:text-sm text-secondary-foreground/70">
               CNPJ: 58.524.515/0001-70
             </p>
+            {/* Certificação STIHL */}
+            <div className="bg-[#F37021] rounded-lg p-3 mt-4 inline-block">
+              <div className="flex items-center gap-2">
+                <Award className="h-5 w-5 text-white" />
+                <div>
+                  <p className="text-white font-bold text-sm">STIHL</p>
+                  <p className="text-white/90 text-xs">Revendedor Autorizado</p>
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Contato */}
-          <div>
+          <div className="min-w-0">
             <h4 className="text-base sm:text-lg font-semibold text-secondary-foreground mb-3 sm:mb-4">Contato</h4>
-            <ul className="space-y-2 sm:space-y-3">
+            <ul className="space-y-3 sm:space-y-4">
               <li className="flex items-start gap-2 text-sm sm:text-base text-secondary-foreground/80">
                 <Mail className="h-4 w-4 sm:h-5 sm:w-5 mt-0.5 flex-shrink-0 text-white" />
-                <a href="mailto:agroreiscomercio.ar@gmail.com" className="hover:text-primary transition-colors break-words">
+                <a href="mailto:agroreiscomercio.ar@gmail.com" className="hover:text-primary transition-colors break-all">
                   agroreiscomercio.ar@gmail.com
                 </a>
               </li>
@@ -45,7 +55,7 @@ const Footer = () => {
 
           {/* Redes Sociais */}
           <div>
-            <h4 className="text-base sm:text-lg font-semibold text-secondary-foreground mb-3 sm:mb-4">Redes sociais</h4>
+            <h4 className="text-base sm:text-lg font-semibold text-secondary-foreground mb-3 sm:mb-4">Redes Sociais</h4>
             <a
               href="https://instagram.com/agroreis.ar"
               target="_blank"
@@ -55,20 +65,6 @@ const Footer = () => {
               <Instagram className="h-4 w-4 sm:h-5 sm:w-5 text-white" />
               <span>@agroreis.ar</span>
             </a>
-          </div>
-
-          {/* Certificação STIHL */}
-          <div>
-            <h4 className="text-base sm:text-lg font-semibold text-secondary-foreground mb-3 sm:mb-4">Certificação</h4>
-            <div className="bg-[#F37021] rounded-lg p-3 sm:p-4 inline-block">
-              <div className="flex items-center gap-2">
-                <Award className="h-5 w-5 sm:h-6 sm:w-6 text-white" />
-                <div>
-                  <p className="text-white font-bold text-sm sm:text-base">STIHL</p>
-                  <p className="text-white/90 text-xs">Revendedor Autorizado</p>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
 
