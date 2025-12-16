@@ -7,8 +7,8 @@ const Contact = () => {
     {
       icon: Phone,
       label: "Telefone",
-      value: "AGROREIS LTDA",
-      link: "#",
+      value: "(38) 99822-5504",
+      link: "tel:+5538998225504",
     },
     {
       icon: Mail,

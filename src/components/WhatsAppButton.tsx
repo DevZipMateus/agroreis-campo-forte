@@ -1,8 +1,7 @@
 import { MessageCircle } from "lucide-react";
 
 const WhatsAppButton = () => {
-  // Nota: número não fornecido, usando placeholder
-  const whatsappNumber = "5599999999999";
+  const whatsappNumber = "5538998225504";
   const message = encodeURIComponent("Olá! Gostaria de mais informações sobre os serviços da AGROREIS.");
 
   return (
