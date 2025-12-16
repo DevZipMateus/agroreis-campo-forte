@@ -91,11 +91,11 @@ const Contact = () => {
           </p>
           <Button
             size="lg"
-            className="bg-primary hover:bg-primary/90 text-primary-foreground text-base sm:text-lg px-6 py-5 sm:px-8 sm:py-6 w-full sm:w-auto max-w-xs sm:max-w-none mx-auto"
+            className="bg-success hover:bg-success/90 text-white text-base sm:text-lg px-6 py-5 sm:px-8 sm:py-6 w-full sm:w-auto max-w-xs sm:max-w-none mx-auto"
             asChild
           >
-            <a href="mailto:agroreiscomercio.ar@gmail.com">
-              Enviar mensagem
+            <a href="https://wa.me/5575999566681" target="_blank" rel="noopener noreferrer">
+              Falar pelo WhatsApp
             </a>
           </Button>
         </div>
