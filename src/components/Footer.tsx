@@ -1,11 +1,11 @@
-import { MapPin, Mail, Clock, Instagram } from "lucide-react";
+import { MapPin, Mail, Clock, Instagram, Award } from "lucide-react";
 import logo from "@/assets/logo.png";
 
 const Footer = () => {
   return (
     <footer className="bg-secondary border-t border-border">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 sm:gap-8">
           {/* Sobre */}
           <div>
             <img src={logo} alt="AGROREIS LTDA" className="h-16 sm:h-20 w-auto mb-3 sm:mb-4" />
@@ -55,6 +55,20 @@ const Footer = () => {
               <Instagram className="h-4 w-4 sm:h-5 sm:w-5 text-white" />
               <span>@agroreis.ar</span>
             </a>
+          </div>
+
+          {/* Certificação STIHL */}
+          <div>
+            <h4 className="text-base sm:text-lg font-semibold text-secondary-foreground mb-3 sm:mb-4">Certificação</h4>
+            <div className="bg-[#F37021] rounded-lg p-3 sm:p-4 inline-block">
+              <div className="flex items-center gap-2">
+                <Award className="h-5 w-5 sm:h-6 sm:w-6 text-white" />
+                <div>
+                  <p className="text-white font-bold text-sm sm:text-base">STIHL</p>
+                  <p className="text-white/90 text-xs">Revendedor Autorizado</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
