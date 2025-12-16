@@ -20,8 +20,8 @@ const Services = () => {
     },
     {
       icon: Stethoscope,
-      title: "Atendimento clínico",
-      description: "Atendimento clínico veterinário completo com diagnóstico preciso e tratamento adequado para seus animais.",
+      title: "Orientação veterinária",
+      description: "Orientação veterinária especializada para cuidados preventivos e manejo adequado dos seus animais.",
       image: clinicImage,
     },
   ];
