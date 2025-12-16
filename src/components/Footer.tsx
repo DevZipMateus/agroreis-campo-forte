@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="bg-secondary border-t border-border">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 sm:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 sm:gap-10 lg:gap-6">
           {/* Sobre */}
           <div>
             <img src={logo} alt="AGROREIS LTDA" className="h-16 sm:h-20 w-auto mb-3 sm:mb-4" />
@@ -34,12 +34,12 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Horário */}
+          {/* Horário de Atendimento */}
           <div>
-            <h4 className="text-base sm:text-lg font-semibold text-secondary-foreground mb-3 sm:mb-4">Horário</h4>
+            <h4 className="text-base sm:text-lg font-semibold text-secondary-foreground mb-3 sm:mb-4">Horário de Atendimento</h4>
             <div className="flex items-start gap-2 text-sm sm:text-base text-secondary-foreground/80">
               <Clock className="h-4 w-4 sm:h-5 sm:w-5 mt-0.5 flex-shrink-0 text-white" />
-              <span>7:30 às 17h</span>
+              <span>Seg a Sáb: 7:30 às 17h</span>
             </div>
           </div>
 
