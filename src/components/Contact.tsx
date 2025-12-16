@@ -19,7 +19,7 @@ const Contact = () => {
     {
       icon: MapPin,
       label: "Endereço",
-      value: "Rodovia BA-142, s/n",
+      value: "BA-142 Wagner/Utinga, em frente à praça nova",
       link: "#",
     },
     {
