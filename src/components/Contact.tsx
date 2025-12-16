@@ -24,8 +24,8 @@ const Contact = () => {
     },
     {
       icon: Clock,
-      label: "Horário",
-      value: "7:30 às 17h",
+      label: "Horário de Atendimento",
+      value: "Seg a Sáb: 7:30 às 17h",
       link: "#",
     },
     {
