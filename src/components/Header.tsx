@@ -37,9 +37,6 @@ const Header = () => {
   }, {
     label: "Produtos",
     id: "products"
-  }, {
-    label: "Contato",
-    id: "contact"
   }];
   return <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "bg-background/95 backdrop-blur-md shadow-md" : "bg-background/80 backdrop-blur-sm"}`}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -50,7 +47,7 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
-            {navItems.map(item => <button key={item.id} onClick={() => scrollToSection(item.id)} className="text-secondary-foreground hover:text-primary transition-colors font-medium">
+            {navItems.map(item => <button key={item.id} onClick={() => scrollToSection(item.id)} className="text-foreground hover:text-primary transition-colors font-medium">
                 {item.label}
               </button>)}
             <Button variant="default" onClick={() => scrollToSection("contact")} className="bg-primary hover:bg-primary/90">
@@ -67,7 +64,7 @@ const Header = () => {
         {/* Mobile Navigation */}
         {isMobileMenuOpen && <nav className="md:hidden py-4 border-t border-border">
             <div className="flex flex-col gap-4">
-              {navItems.map(item => <button key={item.id} onClick={() => scrollToSection(item.id)} className="text-secondary-foreground hover:text-primary transition-colors font-medium text-left py-2">
+              {navItems.map(item => <button key={item.id} onClick={() => scrollToSection(item.id)} className="text-foreground hover:text-primary transition-colors font-medium text-left py-2">
                   {item.label}
                 </button>)}
               <Button variant="default" onClick={() => scrollToSection("contact")} className="bg-primary hover:bg-primary/90 w-full">
