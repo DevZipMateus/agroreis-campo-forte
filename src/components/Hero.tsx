@@ -28,7 +28,7 @@ const Hero = () => {
             <div className="flex-1 max-w-3xl text-center lg:text-left">
               <div className="flex items-center justify-center lg:justify-start gap-2 sm:gap-3 mb-3 sm:mb-4 md:mb-6 animate-fade-in">
                 <Sprout className="h-6 w-6 sm:h-8 sm:w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 text-primary" />
-                <span className="text-accent font-bold text-sm sm:text-base md:text-lg">Agropecuária e Veterinária</span>
+                <span className="font-bold text-sm sm:text-base md:text-lg text-primary">Agropecuária e Veterinária</span>
               </div>
               
               <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-7xl font-bold text-foreground mb-3 sm:mb-4 md:mb-6 animate-fade-in">
