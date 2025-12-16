@@ -6,9 +6,9 @@ const Contact = () => {
   const contactInfo = [
     {
       icon: Phone,
-      label: "Telefone",
+      label: "Telefone / WhatsApp",
       value: "(75) 99956-6681",
-      link: "tel:+5575999566681",
+      link: "https://wa.me/5575999566681",
     },
     {
       icon: Mail,
