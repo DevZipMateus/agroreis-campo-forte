@@ -62,9 +62,9 @@ const Header = () => {
             aria-label="Toggle menu"
           >
             {isMobileMenuOpen ? (
-              <X className="h-6 w-6 !text-primary" />
+              <X className="h-6 w-6" style={{ color: 'hsl(142, 55%, 35%)' }} />
             ) : (
-              <Menu className="h-6 w-6 !text-primary" />
+              <Menu className="h-6 w-6" style={{ color: 'hsl(142, 55%, 35%)' }} />
             )}
           </button>
         </div>
