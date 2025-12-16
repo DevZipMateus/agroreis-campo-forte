@@ -35,6 +35,9 @@ const Header = () => {
     label: "Serviços",
     id: "services"
   }, {
+    label: "Produtos",
+    id: "products"
+  }, {
     label: "Contato",
     id: "contact"
   }];
