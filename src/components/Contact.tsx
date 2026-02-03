@@ -20,7 +20,7 @@ const Contact = () => {
       icon: MapPin,
       label: "Endereço",
       value: "BA-142 Wagner/Utinga, em frente à praça nova",
-      link: "#",
+      link: "https://www.google.com/maps/search/?api=1&query=AGROREIS+BA-142+Wagner+Utinga+Bahia",
     },
     {
       icon: Clock,
