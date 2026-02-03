@@ -21,7 +21,7 @@ const Services = () => {
     {
       icon: Stethoscope,
       title: "Orientação veterinária",
-      description: "Orientação veterinária especializada para cuidados preventivos e manejo adequado dos seus animais.",
+      description: "Orientação veterinária para cuidados preventivos, manejo adequado e bem-estar dos seus animais.",
       image: clinicImage,
     },
   ];
