@@ -1,8 +1,9 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Syringe, Heart, Stethoscope } from "lucide-react";
+import { Syringe, Heart, Stethoscope, Leaf } from "lucide-react";
 import vaccinationImage from "@/assets/service-vaccination.jpg";
 import inseminationImage from "@/assets/service-insemination.jpg";
 import clinicImage from "@/assets/service-clinic.jpg";
+import agronomyImage from "@/assets/service-agronomy.jpg";
 
 const Services = () => {
   const services = [
@@ -23,6 +24,12 @@ const Services = () => {
       title: "Orientação veterinária",
       description: "Orientação veterinária para cuidados preventivos, manejo adequado e bem-estar dos seus animais.",
       image: clinicImage,
+    },
+    {
+      icon: Leaf,
+      title: "Orientação técnica agronômica",
+      description: "Recomendação técnica sobre manejo de solo, pastagens, adubação, irrigação e uso correto de insumos agrícolas.",
+      image: agronomyImage,
     },
   ];
 
